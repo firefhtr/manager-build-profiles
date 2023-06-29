@@ -1,4 +1,4 @@
-FROM registry.suse.com/bci/bci-busybox:latest
+FROM registry.suse.com/bci/bci-base:latest
 LABEL maintainer="Anthony Tortola <atortola@suse.com>"
 
 ARG repo
