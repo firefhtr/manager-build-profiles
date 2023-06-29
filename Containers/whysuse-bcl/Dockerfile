@@ -13,3 +13,4 @@ RUN /root/add_packages.sh
 
 COPY _site /srv/www/htdocs/pub/
 
+CMD /usr/sbin/start_apache2 -DFOREGROUND -k start
