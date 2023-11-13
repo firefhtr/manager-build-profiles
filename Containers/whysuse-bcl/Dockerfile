@@ -1,4 +1,4 @@
-FROM registry.suse.com/bci/bci-base:latest
+FROM registry.suse.com/bci/bci-base:15.5
 LABEL maintainer="Anthony Tortola <atortola@suse.com>"
 
 ARG repo
